@@ -1,0 +1,18 @@
+{
+  	"timeMode":{"time":60},
+  	"moveMode":{"action":3},
+
+  	"shareIcon":[{"url":"feed1.png"},{"url":"feed2.png"},{"url":"feed3.png"},{"url":"feed4.png"},{"url":"feed5.png"}],
+    "shareMess":[
+	  {"txt":"JuiceBoom小水果萌萌哒"},
+	  {"txt":"JuiceBoom现已加入豪华午餐"},
+	  {"txt":"说好的JuiceBoom那"},
+	  {"txt":"爆表你的bigger，JuiceBoom"},
+	  {"txt":"JuiceBoom You can you up No can no bb"},
+	  {"txt":"Juice虽易，Boom不易，且吃且珍惜"},
+	  {"txt":"JuiceBoom不作死就不会死"},
+	  {"txt":"榨汁技术哪家强JuiceBoom"},
+	  {"txt":"JuiceBoom水果切成这样也是蛮拼的"},
+	  {"txt":"JuiceBoom超值分享装，快快来体验"}
+	  ]
+}
