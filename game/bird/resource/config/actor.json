@@ -1,0 +1,6 @@
+[
+	{"id":1,"name":"Rookie","isActived":true,"price":{"type":7,"num":0},"desc":"可爱的红色小鸟"},
+	{"id":2,"name":"Pink","isActived":false,"price":{"type":7,"num":8},"desc":"每次开始免费飞行"},
+	{"id":3,"name":"Kiwi","isActived":false,"price":{"type":7,"num":10},"desc":"每次开始免费获得保护罩"},
+	{"id":4,"name":"Frankie","isActived":false,"price":{"type":7,"num":12},"desc":"每次总分增加10%"}
+]

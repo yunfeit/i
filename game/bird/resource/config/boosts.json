@@ -1,0 +1,8 @@
+[
+	{"name":"增加基本耐力","desc":"升级时增加基本耐力","icon":"icon-prop-stamina.png"},
+	{"name":"磁铁","desc":"升级时磁铁持续时间将会延长","icon":"ShopBuyMagnet.png"},
+	{"name":"翅膀","desc":"升级时翅膀持续时间将会增加","icon":"ShopBuyFlying.png"},
+	{"name":"猕猴桃变换","desc":"升级时会延长猕猴桃变换时间","icon":"item-transform.png"},
+	{"name":"耐力药水","desc":"升级时耐力药物会增加回复量","icon":"ShopBuyPotionBig.png"},
+	{"name":"火力","desc":"升级时火力持续时间将会增加","icon":"ShopBuyJuggernaut.png"}
+]

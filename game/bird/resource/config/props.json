@@ -1,0 +1,7 @@
+[
+	{"name":"盾牌","desc":"游戏开始自动使用,抵挡一次伤害","icon":"ShopBuyShield.png"},
+	{"name":"首次狂奔","desc":"游戏开始后飞行一段距离","icon":"ShopBuyStartRun.png"},
+	{"name":"最后狂奔","desc":"角色死亡后坚持飞行一段距离","icon":"ShopBuyEndRun.png"},
+	{"name":"耐力药水","desc":"下一局游戏中耐力提升到最大值","icon":"icon-prop-stamina.png"},
+	{"name":"猕猴桃加量器","desc":"使用之后获得的猕猴桃翻倍","icon":"ShopBuyKiwiboost.png"}
+]

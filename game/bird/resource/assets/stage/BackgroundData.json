@@ -1,0 +1,14 @@
+{
+	"bgFar":70,
+	"bgMiddle":150,
+	"bgObject":380,
+	"bgNear":300,
+	"bgForeground":420,
+	"bgCloud":50,
+	"distanceTempo":600,
+	"speedupInc":0.15,
+	"triggerBoxDistance1":1013,
+	"triggerBoxDistance2":1990,
+	"triggerBoxDistance3":2560,
+	"triggerBoxDistance4":3460
+}
