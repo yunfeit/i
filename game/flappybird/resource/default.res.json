@@ -1,233 +1,200 @@
 {
-	"groups":[{
-			"keys":"color_4,color_5,color_6,color_7,color_8,color_0,color_1,color_2,color_3,bg1,title,start_bg,tap,clear,bomb,number,fire_png,fire_json,circle,score,bomb_tip,numberBest,iconBest,best,btn_restart_press,btn_resume_normal,btn_resume_press,btn_home_normal,btn_home_press,btn_pause_normal,btn_pause_press,btn_restart_normal,btn_start_normal,btn_start_press,btn_followus_press,btn_followus_normal,bgMusic,newRecord,putDown,warning,addBomb,audio_addScore,audio_over,bomb_explode,color_9",
-			"name":"preload"
-		}],
-	"resources":[
+	"groups": [
 		{
-			"name":"color_4",
-			"type":"image",
-			"url":"assets/color_4.png"
+			"keys": "button_start,obj_flappy,obj_ground,flappyfont,orange,light,tree,head,banner,btn_get,yanhua,banner1,birdie2,bottom,buttion,stem,TIPS1,TIPS2,TIPS3,TIPS4,TIPS5,TIPS6,word,word2,redpacket3,bg,plus,tip4,tip5,tip6,tip1,tip2,tip3,ws_bg_scoreLayer,ws_number,ws_rank,ws_retry,background",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/instructions.png",
+			"type": "image",
+			"name": "button_start"
 		},
 		{
-			"name":"color_5",
-			"type":"image",
-			"url":"assets/color_5.png"
+			"url": "assets/birdie.png",
+			"type": "image",
+			"name": "obj_flappy"
 		},
 		{
-			"name":"color_6",
-			"type":"image",
-			"url":"assets/color_6.png"
+			"url": "assets/fence.png",
+			"type": "image",
+			"name": "obj_ground"
 		},
 		{
-			"name":"color_7",
-			"type":"image",
-			"url":"assets/color_7.png"
+			"url": "assets/fonts/flappyfont.fnt",
+			"type": "font",
+			"name": "flappyfont"
 		},
 		{
-			"name":"color_8",
-			"type":"image",
-			"url":"assets/color_8.png"
+			"url": "assets/orange.png",
+			"type": "image",
+			"name": "orange"
 		},
 		{
-			"name":"color_0",
-			"type":"image",
-			"url":"assets/color_0.png"
+			"url": "assets/light.png",
+			"type": "image",
+			"name": "light"
 		},
 		{
-			"name":"color_1",
-			"type":"image",
-			"url":"assets/color_1.png"
+			"url": "assets/tree.png",
+			"type": "image",
+			"name": "tree"
 		},
 		{
-			"name":"color_2",
-			"type":"image",
-			"url":"assets/color_2.png"
+			"url": "assets/head.png",
+			"type": "image",
+			"name": "head"
 		},
 		{
-			"name":"color_3",
-			"type":"image",
-			"url":"assets/color_3.png"
+			"url": "assets/banner.png",
+			"type": "image",
+			"name": "banner"
 		},
 		{
-			"name":"bg1",
-			"type":"image",
-			"url":"assets/bg1.png"
+			"url": "assets/btn_get.png",
+			"type": "image",
+			"name": "btn_get"
 		},
 		{
-			"name":"title",
-			"type":"image",
-			"url":"assets/title.png"
+			"url": "assets/yanhua.png",
+			"type": "image",
+			"name": "yanhua"
 		},
 		{
-			"name":"start_bg",
-			"type":"image",
-			"url":"assets/start_bg.png"
+			"url": "assets/banner1.png",
+			"type": "image",
+			"name": "banner1"
 		},
 		{
-			"name":"tap",
-			"type":"sound",
-			"url":"sound/tap.mp3"
+			"url": "assets/birdie2.png",
+			"type": "image",
+			"name": "birdie2"
 		},
 		{
-			"name":"clear",
-			"type":"sound",
-			"url":"sound/clear.mp3"
+			"url": "assets/bottom.png",
+			"type": "image",
+			"name": "bottom"
 		},
 		{
-			"name":"bomb",
-			"type":"image",
-			"url":"assets/bomb.png"
+			"url": "assets/buttion.png",
+			"type": "image",
+			"name": "buttion"
 		},
 		{
-			"name":"number",
-			"type":"font",
-			"url":"assets/number.fnt"
+			"url": "assets/stem.png",
+			"type": "image",
+			"name": "stem"
 		},
 		{
-			"name":"fire_png",
-			"type":"image",
-			"url":"assets/fire_png.png"
+			"url": "assets/TIPS1.png",
+			"type": "image",
+			"name": "TIPS1"
 		},
 		{
-			"name":"fire_json",
-			"type":"json",
-			"url":"assets/fire_json.json"
+			"url": "assets/TIPS2.png",
+			"type": "image",
+			"name": "TIPS2"
 		},
 		{
-			"name":"circle",
-			"type":"image",
-			"url":"assets/circle.png"
+			"url": "assets/TIPS3.png",
+			"type": "image",
+			"name": "TIPS3"
 		},
 		{
-			"name":"score",
-			"type":"font",
-			"url":"assets/score.fnt"
+			"url": "assets/TIPS4.png",
+			"type": "image",
+			"name": "TIPS4"
 		},
 		{
-			"name":"bomb_tip",
-			"type":"image",
-			"url":"assets/bomb_tip.png"
+			"url": "assets/TIPS5.png",
+			"type": "image",
+			"name": "TIPS5"
 		},
 		{
-			"name":"numberBest",
-			"type":"font",
-			"url":"assets/numberBest.fnt"
+			"url": "assets/TIPS6.png",
+			"type": "image",
+			"name": "TIPS6"
 		},
 		{
-			"name":"iconBest",
-			"type":"image",
-			"url":"assets/iconBest.png"
+			"url": "assets/word.png",
+			"type": "image",
+			"name": "word"
 		},
 		{
-			"name":"best",
-			"type":"image",
-			"url":"assets/best.png"
+			"url": "assets/word2.png",
+			"type": "image",
+			"name": "word2"
 		},
 		{
-			"name":"btn_restart_press",
-			"type":"image",
-			"url":"assets/btn_restart_press.png"
+			"url": "assets/redpacket3.png",
+			"type": "image",
+			"name": "redpacket3"
 		},
 		{
-			"name":"btn_resume_normal",
-			"type":"image",
-			"url":"assets/btn_resume_normal.png"
+			"url": "sound/bg.mp3",
+			"type": "sound",
+			"name": "bg"
 		},
 		{
-			"name":"btn_resume_press",
-			"type":"image",
-			"url":"assets/btn_resume_press.png"
+			"url": "assets/plus.png",
+			"type": "image",
+			"name": "plus"
 		},
 		{
-			"name":"btn_home_normal",
-			"type":"image",
-			"url":"assets/btn_home_normal.png"
+			"url": "assets/tip4.png",
+			"type": "image",
+			"name": "tip4"
 		},
 		{
-			"name":"btn_home_press",
-			"type":"image",
-			"url":"assets/btn_home_press.png"
+			"url": "assets/tip5.png",
+			"type": "image",
+			"name": "tip5"
 		},
 		{
-			"name":"btn_pause_normal",
-			"type":"image",
-			"url":"assets/btn_pause_normal.png"
+			"url": "assets/tip6.png",
+			"type": "image",
+			"name": "tip6"
 		},
 		{
-			"name":"btn_pause_press",
-			"type":"image",
-			"url":"assets/btn_pause_press.png"
+			"url": "assets/tip1.png",
+			"type": "image",
+			"name": "tip1"
 		},
 		{
-			"name":"btn_restart_normal",
-			"type":"image",
-			"url":"assets/btn_restart_normal.png"
+			"url": "assets/tip2.png",
+			"type": "image",
+			"name": "tip2"
 		},
 		{
-			"name":"btn_start_normal",
-			"type":"image",
-			"url":"assets/btn_start_normal.png"
+			"url": "assets/tip3.png",
+			"type": "image",
+			"name": "tip3"
 		},
 		{
-			"name":"btn_start_press",
-			"type":"image",
-			"url":"assets/btn_start_press.png"
+			"url": "assets/ws_bg_scoreLayer.png",
+			"type": "image",
+			"name": "ws_bg_scoreLayer"
 		},
 		{
-			"name":"btn_followus_press",
-			"type":"image",
-			"url":"assets/btn_followus_press.png"
+			"url": "assets/ws_number.fnt",
+			"type": "font",
+			"name": "ws_number"
 		},
 		{
-			"name":"btn_followus_normal",
-			"type":"image",
-			"url":"assets/btn_followus_normal.png"
+			"url": "assets/ws_rank.png",
+			"type": "image",
+			"name": "ws_rank"
 		},
 		{
-			"name":"bgMusic",
-			"type":"sound",
-			"url":"sound/bgMusic.mp3"
+			"url": "assets/ws_retry.png",
+			"type": "image",
+			"name": "ws_retry"
 		},
 		{
-			"name":"newRecord",
-			"type":"sound",
-			"url":"sound/newRecord.mp3"
-		},
-		{
-			"name":"putDown",
-			"type":"sound",
-			"url":"sound/putDown.mp3"
-		},
-		{
-			"name":"warning",
-			"type":"sound",
-			"url":"sound/warning.mp3"
-		},
-		{
-			"name":"addBomb",
-			"type":"sound",
-			"url":"sound/addBomb.mp3"
-		},
-		{
-			"name":"audio_addScore",
-			"type":"sound",
-			"url":"sound/audio_addScore.mp3"
-		},
-		{
-			"name":"audio_over",
-			"type":"sound",
-			"url":"sound/audio_over.mp3"
-		},
-		{
-			"name":"bomb_explode",
-			"type":"sound",
-			"url":"sound/bomb_explode.mp3"
-		},
-		{
-			"name":"color_9",
-			"type":"image",
-			"url":"assets/color_9.png"
+			"url": "assets/bg.png",
+			"type": "image",
+			"name": "background"
 		}
 	]
 }
