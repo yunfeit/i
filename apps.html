@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>我的软件集合</title>
+    <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+    <v-expansion-panels>
+        <template v-for="(p,i) in items">
+        <v-expansion-panel>
+            <v-expansion-panel-header>{{p.header}}</v-expansion-panel-header>
+            <v-expansion-panel-content>
+                <app-table :items="p.items"></app-table>
+            </v-expansion-panel-content>
+        </v-expansion-panel>
+        </template>
+    <v-expansion-panels>
+</div>
+<template id="app-table">
+    <v-data-table
+            :headers="headers"
+            :items="items"
+			:items-per-page="50"
+            hide-default-footer
+            class="elevation-1"
+    >
+        <template v-slot:body="{items}">
+		<tbody>
+		<tr v-for="item in items" :key="item.name">
+            <td><center>{{ item.name }}</center></td>
+            <td><center><v-chip color="green"><a :href="item.link">{{ item.ver }}</a></v-chip></center></td>
+			</tr>
+			</tbody>
+        </template>
+    </v-data-table>
+</template>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script>
+    Vue.component('app-table', {
+        data: function () {
+            return {
+                headers: [
+                    {
+                        text: '名称',
+                        value: 'name'
+                    },
+                    {
+                        text: '版本',
+                        value: 'ver'
+                    }
+                ]
+            };
+        },
+        props: ['items'],
+        template: "#app-table"
+    });
+    var items = [{
+        header: "IDE",
+        items: [{
+            link: 'https://download.jetbrains.8686c.com/idea/ideaIU-2019.3.exe',
+            ver: "2019.3",
+            name: 'ideaIU'
+        }, {
+            link: 'https://download.jetbrains.8686c.com/webide/PhpStorm-2019.3.exe',
+            ver: "2019.3",
+            name: 'PhpStorm'
+        }, {
+            link: 'https://nchc.dl.sourceforge.net/project/winscp/WinSCP/5.15.5/WinSCP-5.15.5-Setup.exe',
+            ver: "5.15.5",
+            name: 'WinSCP'
+        }]
+    },{
+        header: "翻墙",
+        items: [{
+            link: 'https://github.com/shadowsocks/shadowsocks-windows/releases',
+            ver: "latest",
+            name: 'shadowsocks'
+        },{
+            link: 'https://dt27.org/linux/centos_da_jian_shadowsocks_fu_wu_duan/',
+            ver: "latest",
+            name: '翻墙教程'
+        }]
+    },{
+        header: "编辑器",
+        items: [{
+            link: 'https://download.sublimetext.com/Sublime%20Text%20Build%203176%20x64%20Setup.exe',
+            ver: "Build 3176",
+            name: 'Sublime Text 3'
+        }]
+    }, {
+        header: "node",
+        items: [{
+            link: 'https://nodejs.org/dist/v10.5.0/node-v10.5.0-x64.msi',
+            ver: "10.5.0-64",
+            name: 'node-v10.5.0-x64'
+        }, {
+            link: 'https://nodejs.org/dist/v8.11.3/node-v8.11.3-x64.msi',
+            ver: "8.11.3-64",
+            name: 'node-v8.11.3 LTS'
+        }]
+    }, {
+        header: "聊天",
+        items: [{
+            link: 'http://dldir1.qq.com/weixin/Windows/WeChatSetup.exe',
+            ver: "latest",
+            name: '微信'
+        }, {
+            link: 'https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ2019.exe',
+            ver: "2019latest",
+            name: 'QQ'
+        }, {
+            link: 'https://download.skype.com/s4l/download/win/Skype-8.55.0.141.exe',
+            ver: "8.55.0.141",
+            name: 'Skype'
+        }, {
+            link: 'https://download.ptcloud.info/win/PotatoInstaller.zip',
+            ver: "latest",
+            name: 'Potato'
+        }]
+    }, {
+        header: "版本控制",
+        items: [{
+            link: 'https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-64-bit.exe',
+            ver: "2.24.0.2-64",
+            name: 'git-for-windows'
+        }, {
+            link: 'https://download.tortoisegit.org/tgit/2.9.0.0/TortoiseGit-2.9.0.0-64bit.msi',
+            ver: "2.9.0.0-64",
+            name: 'TortoiseGit'
+        }, {
+            link: 'https://mirrors.xtom.com.hk/osdn//storage/g/t/to/tortoisesvn/1.12.2/Application/TortoiseSVN-1.12.2.28653-x64-svn-1.12.2.msi',
+            ver: "1.12.2.28653-x64",
+            name: 'TortoiseSVN'
+        }]
+    }, {
+        header: "必备软件",
+        items: [{
+            link: 'http://down.sandai.net/thunder9/XunLeiSetup9.1.49.1060.exe',
+            ver: "9.1.49.1060",
+            name: '迅雷离线安装'
+        }, {
+            link: 'http://file.drivergenius.com/DGSetup_1410E3.exe',
+            ver: "1410E3",
+            name: '驱动精灵网卡版'
+        }, {
+            link: 'http://dl.2345.cc/haozip/haozip_v5.9.8.10920.exe',
+            ver: "5.9.8",
+            name: '好压'
+        }, {
+            link: 'http://dl.2345.cc/pic/2345pic_v9.1.2.exe',
+            ver: "9.1.2",
+            name: '2345看图'
+        }, {
+            link: 'https://dl.360safe.com/360/inst.exe',
+            ver: "latest",
+            name: '360setup_online.exe'
+        }, {
+            link: 'http://down.360safe.com/cse/360cse_11.0.2251.0.exe',
+            ver: "11.0.2251.0",
+            name: '360急速浏览器'
+        }, {
+            link: 'https://speedxbu.baidu.com/shurufa/ime/setup/BaiduPinyinSetup_5.5.5043.0.exe',
+            ver: "5.5.5043.0",
+            name: '百度拼音输入法'
+        }, {
+            link: 'http://downmini.kugou.com/web/kugou8395.exe',
+            ver: "8",
+            name: '酷狗'
+        }, {
+            link: 'http://download.oray.com/peanuthull/windows/HskDDNS_5.0.0.21724.exe',
+            ver: "5.0.0.21724",
+            name: '花生壳'
+        }, {
+            link: 'http://dldir1.qq.com/qqtv/TencentVideoUpgrade10.22.4496.0.exe',
+            ver: "10.22.4496.0",
+            name: '腾讯视频'
+        }, {
+            link: 'https://dldir1.qq.com/weiyun/WeiyunSyncInstall_Beta_1_3.0.0.311_20190830_171605_r0.exe',
+            ver: "1_3.0.0.311",
+            name: '腾讯微云'
+        }, {
+            link: 'https://dl.cmbimg.com/download/PB/PBSetup70.exe',
+            ver: "7.7",
+            name: '招商银行专业版'
+        }, {
+            link: 'http://cd.huoying666.com/hysetup/lite/hy_HL08RAKL.exe',
+            ver: "latest",
+            name: '萤火虫桌面'
+        }, {
+            link: 'https://secure-appldnld.apple.com/itunes12/061-00117-20190909-68198B5E-D33F-11E9-B2F6-6193B44B725A/iTunes64Setup.exe',
+            ver: "latest",
+            name: '苹果iTunes 64位'
+        }, {
+            link: 'http://dldir1.qq.com/tgc/wegame/mini/3.24.6.7252/WeGameMiniLoader.3.24.6.7252.gw.exe',
+            ver: "3.24.6.7252",
+            name: '腾讯WeGame'
+        }, {
+            link: 'http://dl.jisupdf.com/jisupdf_setup_3.0.0.1039.exe',
+            ver: "3.0.0.1039",
+            name: '极速pdf'
+        }, {
+            link: 'https://cn.download.nvidia.cn/GFE/GFEClient/3.20.0.118/GeForce_Experience_v3.20.0.118.exe',
+            ver: "3.20.0.118",
+            name: 'GeForce Experience'
+        }, {
+            link: 'http://download.oray.com/sunlogin/windows/SunloginClient10.2.exe',
+            ver: "10.2",
+            name: '向日葵远控'
+        },{
+            link: 'http://download.ydstatic.com/notewebsite/downloads/YNote.exe',
+            ver: "latest",
+            name: '有道云笔记'
+        }, {
+            link: 'http://download.ydstatic.cn/cidian/static/8.5/20190531/YoudaoDictSetup.exe',
+            ver: "8.5",
+            name: '有道词典'
+        }]
+    }, {
+        header: "开发工具",
+        items: [{
+            link: 'http://public.xp.cn/upgrades/phpStudy_64.7z',
+            ver: "latest",
+            name: 'phpStudy'
+        },{
+            link: 'https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6.msi',
+            ver: "2.2.6",
+            name: 'vagrant'
+        }, {
+            link: 'https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133895-Win.exe',
+            ver: "6.0.14-133895",
+            name: 'VirtualBox'
+        }, {
+            link: 'http://download.navicat.com/download/navicat121_premium_cs_x64.exe',
+            ver: "12.1.25",
+            name: 'navicat premium 64位简体中文版'
+        }, {
+            link: 'http://tool.egret-labs.org/EgretLauncher/EgretLauncher-1.0.71.exe',
+            ver: "1.0.71",
+            name: 'EgretLauncher'
+        }, {
+            link: 'http://tool.egret-labs.org/EgretWing/electron/EgretWing-v4.1.6.exe',
+            ver: "4.1.6",
+            name: 'EgretWing'
+        }, {
+            link: 'https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-windows-x64.exe?AuthParam=1563589007_663a1f07ff53f2baa3925f340f025ad7',
+            ver: "8u221_64",
+            name: 'jdk'
+        }, {
+            link: 'http://download.notepad-plus-plus.org/repository/7.x/7.8.1/npp.7.8.1.Installer.x64.exe',
+            ver: "7.8.1-64",
+            name: 'notepad++'
+        }, {
+            link: 'https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-6.3.10-winx64.msi',
+            ver: "6.3.10-x64",
+            name: 'mysql-workbench-community'
+        }, {
+            link: 'http://www.scootersoftware.com/BCompare-zh-4.2.5.23088.exe',
+            ver: "4.2.5.23088",
+            name: 'beyond compare'
+        }, {
+            link: 'https://dldir1.qq.com/WechatWebDev/1.0.0/201806120/wechat_devtools_1.02.1806120_x64.exe',
+            ver: "1.02.1806120_x64",
+            name: '微信web开发者工具'
+        }]
+    }];
+    var vm = new Vue({
+        el: '#app',
+		vuetify: new Vuetify(),
+        data: {
+            items: items
+        }
+    });
+</script>
+</body>
+</html>
