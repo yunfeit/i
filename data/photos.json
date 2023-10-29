@@ -1,78 +1,38 @@
 [
     {
-        "thumb": "http://v2.freep.cn/3tb_160322011432f5fo512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322010451wijm512293.png"
+        "thumb": "data/img/1.jpg",
+        "img": "data/img/1.jpg"
     },
     {
-        "thumb": "http://v2.freep.cn/3tb_160322011326x0cw512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322010639qfhc512293.png"
+        "thumb": "data/img/2.jpg",
+        "img": "data/img/2.jpg"
     },
     {
-        "thumb": "http://v1.freep.cn/3tb_160322011857sq06512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322011631i3wx512293.jpg"
+        "thumb": "data/img/3.jpg",
+        "img": "data/img/3.jpg"
     },
     {
-        "thumb": "http://v2.freep.cn/3tb_160322012022dq9q512293.jpg",
-        "img": "http://v1.freep.cn/3tb_1603220117490irf512293.jpg"
+        "thumb": "data/img/4.jpg",
+        "img": "data/img/4.jpg"
     },
     {
-        "thumb": "http://v1.freep.cn/3tb_16032201260025eh512293.jpg",
-        "img": "http://v1.freep.cn/3tb_16032201260025eh512293.jpg"
+        "thumb": "data/img/5.jpg",
+        "img": "data/img/5.jpg"
     },
     {
-        "thumb": "http://v1.freep.cn/3tb_16032201260514n4512293.jpg",
-        "img": "http://v1.freep.cn/3tb_16032201260514n4512293.jpg"
+        "thumb": "data/img/16jpg",
+        "img": "data/img/6.jpg"
     },
     {
-        "thumb": "http://v1.freep.cn/3tb_160322012609m3sm512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322012609m3sm512293.jpg"
+        "thumb": "data/img/7.jpg",
+        "img": "data/img/7.jpg"
     },
     {
-        "thumb": "http://v1.freep.cn/3tb_160322012612sd1o512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322012612sd1o512293.jpg"
+        "thumb": "data/img/8.png",
+        "img": "data/img/8.png"
     },
     {
-        "thumb": "http://v2.freep.cn/3tb_1603220126155c1r512293.jpg",
-        "img": "http://v2.freep.cn/3tb_1603220126155c1r512293.jpg"
-    },
-    {
-        "thumb": "http://v2.freep.cn/3tb_1603220126165i7k512293.jpg",
-        "img": "http://v2.freep.cn/3tb_1603220126165i7k512293.jpg"
-    },
-    {
-        "thumb": "http://v1.freep.cn/3tb_1603220126191th1512293.jpg",
-        "img": "http://v1.freep.cn/3tb_1603220126191th1512293.jpg"
-    },
-    {
-        "thumb": "http://v2.freep.cn/3tb_160322012645qfhc512293.jpg",
-        "img": "http://v2.freep.cn/3tb_160322012645qfhc512293.jpg"
-    },
-    {
-        "thumb": "http://v2.freep.cn/3tb_160322012621v92a512293.jpg",
-        "img": "http://v2.freep.cn/3tb_160322012621v92a512293.jpg"
-    },
-    {
-        "thumb": "http://v1.freep.cn/3tb_160322012623muq6512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322012623muq6512293.jpg"
-    },
-    {
-        "thumb": "http://v2.freep.cn/3tb_160322012625a6u1512293.jpg",
-        "img": "http://v2.freep.cn/3tb_160322012625a6u1512293.jpg"
-    },
-    {
-        "thumb": "http://v1.freep.cn/3tb_1603220126419v1o512293.jpg",
-        "img": "http://v1.freep.cn/3tb_1603220126419v1o512293.jpg"
-    },
-    {
-        "thumb": "http://v1.freep.cn/3tb_160322012642gnc5512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322012642gnc5512293.jpg"
-    },
-    {
-        "thumb": "http://v2.freep.cn/3tb_160322012643wijm512293.jpg",
-        "img": "http://v2.freep.cn/3tb_160322012643wijm512293.jpg"
-    },
-    {
-        "thumb": "http://v1.freep.cn/3tb_160322012647hdjk512293.jpg",
-        "img": "http://v1.freep.cn/3tb_160322012647hdjk512293.jpg"
+        "thumb": "data/img/9.jpg",
+        "img": "data/img/9.jpg"
     }
 ]
