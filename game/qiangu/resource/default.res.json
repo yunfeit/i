@@ -1,0 +1,226 @@
+{
+	"groups": [
+		{
+			"keys": "overPlan,playPlan,RstartBtn,Score_Plan,ShareBtn,TimeBar_1,TimeBar_2,TimeBar_3,Card_1,Card_2,Card_3,Card_4,Card_5,Card_6,Card_BG,level_up,pattern,mc,gogo,Card_7,Card_8,Card_9,Card_10,Card_11,Card_12,Card_13,Card_14,help,shareview,download,guanzhu,bg_mp3,playbg,gamefont,ot_json,lrc",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/UI/overPlan.png",
+			"type": "image",
+			"name": "overPlan"
+		},
+		{
+			"url": "assets/UI/playPlan.png",
+			"type": "image",
+			"name": "playPlan"
+		},
+		{
+			"url": "assets/UI/RstartBtn.png",
+			"type": "image",
+			"name": "RstartBtn"
+		},
+		{
+			"url": "assets/UI/Score_Plan.png",
+			"type": "image",
+			"name": "Score_Plan"
+		},
+		{
+			"url": "assets/UI/ShareBtn.png",
+			"type": "image",
+			"name": "ShareBtn"
+		},
+		{
+			"url": "assets/UI/TimeBar_1.png",
+			"type": "image",
+			"name": "TimeBar_1"
+		},
+		{
+			"url": "assets/UI/TimeBar_2.png",
+			"type": "image",
+			"name": "TimeBar_2"
+		},
+		{
+			"url": "assets/UI/TimeBar_3.png",
+			"type": "image",
+			"name": "TimeBar_3"
+		},
+		{
+			"url": "assets/Card/Card_1.png",
+			"type": "image",
+			"name": "Card_1"
+		},
+		{
+			"url": "assets/Card/Card_2.png",
+			"type": "image",
+			"name": "Card_2"
+		},
+		{
+			"url": "assets/Card/Card_3.png",
+			"type": "image",
+			"name": "Card_3"
+		},
+		{
+			"url": "assets/Card/Card_4.png",
+			"type": "image",
+			"name": "Card_4"
+		},
+		{
+			"url": "assets/Card/Card_5.png",
+			"type": "image",
+			"name": "Card_5"
+		},
+		{
+			"url": "assets/Card/Card_6.png",
+			"type": "image",
+			"name": "Card_6"
+		},
+		{
+			"url": "assets/Card/Card_BG.png",
+			"type": "image",
+			"name": "Card_BG"
+		},
+		{
+			"url": "assets/UI/level_up.png",
+			"type": "image",
+			"name": "level_up"
+		},
+		{
+			"url": "assets/UI/pattern.png",
+			"type": "image",
+			"name": "pattern"
+		},
+		{
+			"url": "assets/UI/mc.png",
+			"type": "image",
+			"name": "mc"
+		},
+		{
+			"url": "assets/UI/gogo.png",
+			"type": "image",
+			"name": "gogo"
+		},
+		{
+			"url": "assets/bg.mp3",
+			"type": "sound",
+			"name": "bg_mp3"
+		},
+		{
+			"url": "assets/Card/Card_7.png",
+			"type": "image",
+			"name": "Card_7"
+		},
+		{
+			"url": "assets/Card/Card_8.png",
+			"type": "image",
+			"name": "Card_8"
+		},
+		{
+			"url": "assets/Card/Card_9.png",
+			"type": "image",
+			"name": "Card_9"
+		},
+		{
+			"url": "assets/Card/Card_10.png",
+			"type": "image",
+			"name": "Card_10"
+		},
+		{
+			"url": "assets/Card/Card_11.png",
+			"type": "image",
+			"name": "Card_11"
+		},
+		{
+			"url": "assets/Card/Card_12.png",
+			"type": "image",
+			"name": "Card_12"
+		},
+		{
+			"url": "assets/Card/Card_13.png",
+			"type": "image",
+			"name": "Card_13"
+		},
+		{
+			"url": "assets/Card/Card_14.png",
+			"type": "image",
+			"name": "Card_14"
+		},
+		{
+			"url": "assets/UI/help.png",
+			"type": "image",
+			"name": "help"
+		},
+		{
+			"url": "assets/UI/playbg.jpg",
+			"type": "image",
+			"name": "playbg"
+		},
+		{
+			"url": "assets/UI/shareview.png",
+			"type": "image",
+			"name": "shareview"
+		},
+		{
+			"url": "assets/download.png",
+			"type": "image",
+			"name": "download"
+		},
+		{
+			"url": "assets/guanzhu.png",
+			"type": "image",
+			"name": "guanzhu"
+		},
+		{
+			"url": "common/ws_loadings.png",
+			"type": "image",
+			"name": "ws_loadings_png"
+		},
+		{
+			"url": "common/ws_loading_bar.png",
+			"type": "image",
+			"name": "ws_loading_bar_png"
+		},
+		{
+			"url": "common/ws_logo.png",
+			"type": "image",
+			"name": "ws_logo_png"
+		},
+		{
+			"url": "common/ws_logos.png",
+			"type": "image",
+			"name": "ws_logos_png"
+		},
+		{
+			"url": "common/ws_upload_bg.png",
+			"type": "image",
+			"name": "ws_upload_bg_png"
+		},
+		{
+			"url": "common/ws_upload_btn.png",
+			"type": "image",
+			"name": "ws_upload_btn_png"
+		},
+		{
+			"url": "common/ws_upload_loading.png",
+			"type": "image",
+			"name": "ws_upload_loading_png"
+		},
+		{
+			"url": "assets/lrc.lrc",
+			"type": "text",
+			"name": "lrc"
+		},
+		{
+			"url": "assets/ot.json",
+			"type": "sheet",
+			"name": "ot_json",
+			"subkeys": "v0,v1,v2,v3,v4,v5"
+		},
+		{
+			"url": "assets/gamefont.fnt",
+			"type": "font",
+			"name": "gamefont"
+		}
+	]
+}

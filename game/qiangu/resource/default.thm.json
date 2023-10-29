@@ -1,0 +1,22 @@
+{
+  "autoGenerateExmlsList": false,
+  "exmls": [
+    {
+      "path": "src/skins/GameSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"GameSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:BitmapLabel id=\"fontScore\" x=\"232\" y=\"44\" font=\"flappyfont\" text=\"0\"/>\n\t<e:Image source=\"orange\" x=\"342\" y=\"42\" width=\"109\" height=\"102\"/>\n\t<e:Image source=\"plus\" x=\"313\" y=\"83\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/skins/LoadingSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"LoadingSkin\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect id=\"bg\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\" fillColor=\"0x110d0d\"/>\n\t<e:Image id=\"logo\" source=\"ws_logo\" y=\"193\" horizontalCenter=\"0\"/>\n\t<e:Group height=\"21\" width=\"500\" horizontalCenter=\"0\" verticalCenter=\"20.5\" visible=\"false\">\n\t\t<e:Image id=\"loadingBar\" source=\"ws_loading_bar\" scale9Grid=\"11,2,311,17\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\"/>\n\t\t<e:Image id=\"loadings\" source=\"ws_loadings\" scale9Grid=\"7,2,318,17\" top=\"0\" bottom=\"0\" left=\"0\" width=\"500\"/>\n\t</e:Group>\n\t<e:Image id=\"logos\" source=\"ws_logos\" y=\"714\" horizontalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/skins/StartSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"StartSkin\" width=\"640\" height=\"1136\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image id=\"btnStart\" y=\"604\" horizontalCenter=\"0.5\" source=\"button_start\"/>\n\t<e:Image source=\"button_start\" x=\"129\" y=\"327\"/>\n\t<e:Image source=\"word2\" y=\"645\" horizontalCenter=\"0\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/skins/UploadSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"UploadSkin\" width=\"640\" height=\"960\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Rect right=\"0\" bottom=\"0\" left=\"0\" top=\"0\" fillAlpha=\"0.36\" x=\"10\" y=\"10\"/>\n\t<e:Group id=\"mainLayer\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\">\n\t\t<e:Image id=\"bg\" scale9Grid=\"34,34,409,604\" horizontalCenter=\"0.5\" verticalCenter=\"0.5\" height=\"341\" width=\"585\" source=\"ws_upload_bg\"/>\n\t\t<e:Label id=\"tipLabel\" width=\"498\" size=\"35\" horizontalCenter=\"0\" textColor=\"0x636364\" height=\"72\" verticalAlign=\"middle\" text=\"网络错误\" textAlign=\"center\" fontFamily=\"微软雅黑\" y=\"451\"/>\n\t\t<e:Image id=\"btnRetry\" scale9Grid=\"28,4,303,52\" width=\"486\" y=\"563\" source=\"ws_upload_btn\" height=\"74\" horizontalCenter=\"0\"/>\n\t\t<e:Label id=\"labelBtn\" text=\"重   试\" y=\"585\" bold=\"true\" touchEnabled=\"false\" horizontalCenter=\"0.5\" fontFamily=\"微软雅黑\"/>\n\t\t<e:Label id=\"btnClose\" text=\"X\" x=\"559\" y=\"333\" textColor=\"0x66CD33\" size=\"50\" fontFamily=\"微软雅黑\"/>\n\t\t<e:Label id=\"title\" text=\"加载失败\" y=\"332\" textColor=\"0x66CD33\" fontFamily=\"微软雅黑\" size=\"50\" bold=\"true\" horizontalCenter=\"0\"/>\n\t</e:Group>\n\t<e:Image id=\"loading\" source=\"ws_upload_loading\" anchorOffsetX=\"55\" anchorOffsetY=\"55\" horizontalCenter=\"0\" verticalCenter=\"0\"/>\n</e:Skin>"
+    }
+  ],
+  "skins": {}
+}
