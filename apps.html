@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>我的软件集合</title>
     <link href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css" rel="stylesheet">
@@ -11,30 +11,36 @@
 <div id="app">
     <v-expansion-panels>
         <template v-for="(p,i) in items">
-        <v-expansion-panel>
-            <v-expansion-panel-header>{{p.header}}</v-expansion-panel-header>
-            <v-expansion-panel-content>
-                <app-table :items="p.items"></app-table>
-            </v-expansion-panel-content>
-        </v-expansion-panel>
+            <v-expansion-panel>
+                <v-expansion-panel-header>{{p.header}}</v-expansion-panel-header>
+                <v-expansion-panel-content>
+                    <app-table :items="p.items"></app-table>
+                </v-expansion-panel-content>
+            </v-expansion-panel>
         </template>
-    <v-expansion-panels>
+    </v-expansion-panels>
 </div>
 <template id="app-table">
     <v-data-table
             :headers="headers"
             :items="items"
-			:items-per-page="50"
+            :items-per-page="50"
             hide-default-footer
             class="elevation-1"
     >
         <template v-slot:body="{items}">
-		<tbody>
-		<tr v-for="item in items" :key="item.name">
-            <td><center>{{ item.name }}</center></td>
-            <td><center><v-chip color="green"><a :href="item.link">{{ item.ver }}</a></v-chip></center></td>
-			</tr>
-			</tbody>
+            <tbody>
+            <tr v-for="item in items" :key="item.name">
+                <td>
+                    <center>{{ item.name }}</center>
+                </td>
+                <td>
+                    <center>
+                        <v-chip color="green"><a :href="item.link">{{ item.ver }}</a></v-chip>
+                    </center>
+                </td>
+            </tr>
+            </tbody>
         </template>
     </v-data-table>
 </template>
@@ -75,18 +81,18 @@
             ver: "5.15.5",
             name: 'WinSCP'
         }]
-    },{
+    }, {
         header: "翻墙",
         items: [{
             link: 'https://github.com/shadowsocks/shadowsocks-windows/releases',
             ver: "latest",
             name: 'shadowsocks'
-        },{
+        }, {
             link: 'https://dt27.org/linux/centos_da_jian_shadowsocks_fu_wu_duan/',
             ver: "latest",
             name: '翻墙教程'
         }]
-    },{
+    }, {
         header: "编辑器",
         items: [{
             link: 'https://download.sublimetext.com/Sublime%20Text%20Build%203176%20x64%20Setup.exe',
@@ -212,7 +218,7 @@
             link: 'http://download.oray.com/sunlogin/windows/SunloginClient10.2.exe',
             ver: "10.2",
             name: '向日葵远控'
-        },{
+        }, {
             link: 'http://download.ydstatic.com/notewebsite/downloads/YNote.exe',
             ver: "latest",
             name: '有道云笔记'
@@ -227,7 +233,7 @@
             link: 'http://public.xp.cn/upgrades/phpStudy_64.7z',
             ver: "latest",
             name: 'phpStudy'
-        },{
+        }, {
             link: 'https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6.msi',
             ver: "2.2.6",
             name: 'vagrant'
@@ -271,7 +277,7 @@
     }];
     var vm = new Vue({
         el: '#app',
-		vuetify: new Vuetify(),
+        vuetify: new Vuetify(),
         data: {
             items: items
         }
